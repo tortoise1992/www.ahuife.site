@@ -1,0 +1,32 @@
+<% include  ../header.html %>
+<div>
+    <div id="adds" v-cloak="">
+        <form id="addMovie">
+            电影名称：<input type="text" v-model="moviename">
+            上映时间：<input type="text" v-model="moviedate">
+            图片：<input type="text" v-model="movieimg">
+            备注：<input type="text" v-model="moviemark">
+            <input type="button" value="提交">
+        </form>
+        <p>
+            {{moviename}}
+        </p>
+    </div>
+
+</div>
+
+<% include  ../footerUtil.html %>
+<% include  ../footer.html %>
+<script>
+    var addVm=new Vue({
+        el:'#adds',
+        data:function () {
+            return {
+                moviename:'',
+                moviedate:'',
+                movieimg:'',
+                moviemark:''
+            }
+        }
+    })
+</script>

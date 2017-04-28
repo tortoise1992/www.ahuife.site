@@ -1,0 +1,29 @@
+{
+  "name": "www.ahuife.site",
+  "version": "1.0.0",
+  "description": "www.ahuife.site,个人网站",
+  "main": "app.js",
+  "scripts": {
+    "start": "supervisor --harmony app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tortoise1992/www.ahuife.site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tortoise1992/www.ahuife.site/issues"
+  },
+  "homepage": "https://github.com/tortoise1992/www.ahuife.site#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookies": "^0.7.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "markdown": "^0.5.0",
+    "mongoose": "^4.9.6",
+    "swig": "^1.4.2"
+  }
+}

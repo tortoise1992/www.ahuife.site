@@ -1,0 +1,26 @@
+
+<% include  ../header.html %>
+<div id="app" :test="title" v-cloak>
+    {{title}}
+</div>
+
+<% include  ../footerUtil.html %>
+<% include  ../footer.html %>
+
+
+<script>
+    var indexVm=new Vue({
+        el:'#app',
+        data:function () {
+            return {
+                title:'abcdefg'
+            }
+        },
+        created:function () {
+
+        }
+    })
+
+</script>
+
+
